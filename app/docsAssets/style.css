@@ -1,0 +1,40 @@
+.footer {
+  display: none;
+}
+.image img {
+  height: 60px;
+  width: 60px;
+  /* display: block; */
+}
+.core {
+  background: #60ece5ad !important;
+}
+
+a:hover,
+a:active,
+a.active,
+a.is-active {
+  color: #08d6cc !important;
+}
+
+.button {
+  color: #08d6cc;
+  border-color: #08d6cc;
+}
+
+.tag-source span a {
+  color: #696969;
+}
+.top-nav .menu .navigation .link {
+  display: none;
+}
+.sidebar h3 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+/* .sidebar a:hover,
+.sidebar a.active {
+  color: #08d6cc;
+  font-size: 20px;
+} */

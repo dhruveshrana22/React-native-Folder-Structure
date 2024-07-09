@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "588344325994",
+    "project_id": "reanlo",
+    "storage_bucket": "reanlo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:588344325994:android:9b30fca77ed7aa5e9a9713",
+        "android_client_info": {
+          "package_name": "com.reanlo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "588344325994-1vo79tdasoacgpkukemt2i9vhn6i3da7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.reanlo",
+            "certificate_hash": "9bc5355d0e1ae47bb0788d982c9a16432164871d"
+          }
+        },
+        {
+          "client_id": "588344325994-494a2p5a5fh3kanlcnndquj9re17o28s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-wZ-Ye4AaOxGS45i7eZdqu7U7zMuQ6ks"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "588344325994-494a2p5a5fh3kanlcnndquj9re17o28s.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "588344325994-mv2cj22pk8ommrtf16hquk2rr65939j2.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.reanlo.app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

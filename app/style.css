@@ -1,0 +1,8 @@
+.logo .image {
+  width: 80px; /* Adjust width as needed */
+}
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 20;
+}

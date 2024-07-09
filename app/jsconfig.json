@@ -1,0 +1,58 @@
+{
+  "tags": {
+    "allowUnknownTags": true
+  },
+  "source": {
+    "include": ["./app"]
+  },
+  "compilerOptions": {
+    "jsx": "react-native",
+    "plugins": ["plugins/markdown", "better-docs/component"],
+    "baseUrl": "./",
+    "paths": {
+      "@config": ["app/config"],
+      "@config/*": ["app/config/*"],
+      "@components": ["app/components"],
+      "@components/*": ["app/components/*"],
+      "@assets": ["app/assets"],
+      "@assets/*": ["app/assets/*"],
+      "@helpers": ["app/helpers"],
+      "@helpers/*": ["app/helpers/*"],
+      "@store": ["app/store"],
+      "@store/*": ["app/store/*"],
+      "@screens": ["app/screens"],
+      "@screens/*": ["app/screens/*"],
+      "@navigation": ["app/navigation"],
+      "@navigation/*": ["app/navigation/*"],
+      "@language/": ["app/lang/"],
+      "@language/*": ["app/lang/*"],
+      "@app": ["app"],
+      "@app/*": ["app/*"],
+    }
+  },
+  "opts": {
+    "encoding": "utf8",
+    "destination": "docs/",
+    "recurse": true,
+    "verbose": true,
+    "template": "./node_modules/better-docs"
+  },
+  "templates": {
+    "default": {
+      "staticFiles": {
+        "include": ["./style.css"]
+      }
+    },
+    "cleverLinks": false,
+    "monospaceLinks": false,
+    "search": true,
+    "css": "./style.css",
+    "better-docs": {
+      "name": "",
+      "logo": ".app/assets/images/hcIcon.png",
+      "title": "REANLO", // HTML title
+      "css": "style.css",
+      "trackingCode": ""
+    }
+  }
+}

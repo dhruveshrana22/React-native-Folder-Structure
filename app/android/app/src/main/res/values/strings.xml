@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Reanlo</string>
+    <string name="appCenterCrashes_whenToSendCrashes" moduleConfig="true" translatable="false">
+        DO_NOT_ASK_JAVASCRIPT</string>
+    <string name="appCenterAnalytics_whenToEnableAnalytics" moduleConfig="true" translatable="false">
+        ALWAYS_SEND</string>
+    <string moduleConfig="true" name="CodePushDeploymentKey"></string>
+    <string name="facebook_app_id">7816931498373908</string>
+    <string name="fb_login_protocol_scheme">fb7816931498373908</string>
+    <string name="facebook_client_token">6c61dce1d49b3ecd458bac7b7d990d57</string>
+
+
+</resources>
